@@ -1,6 +1,6 @@
 require 'pry'
 class Artist
-  attr_accessor
+  attr_accessor :artist, :name
 
 
 
