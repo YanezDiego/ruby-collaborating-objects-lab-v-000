@@ -1,5 +1,5 @@
 require 'pry'
-calss Song
+class Song
   attr_accessor
 
 
