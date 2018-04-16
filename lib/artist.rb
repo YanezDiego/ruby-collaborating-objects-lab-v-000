@@ -1,10 +1,11 @@
 require 'pry'
 class Artist
   attr_accessor :artist, :name, :songs
-@@all? { |e|  }
+@@all
 
     def self.all
       @@all
+    end
 
     def initialize(name)
       @name = name
@@ -22,7 +23,7 @@ class Artist
     end
 
     def save
-
+      self.class.all << self
     end
 
 
