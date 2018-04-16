@@ -9,7 +9,6 @@ class MP3Importer
   end
 
   def files
-    binding.pry
     @files = Dir["#{path}/*.mp3"]
     @files = @files.join("")
     @files = @files.split("#{@path}/")
