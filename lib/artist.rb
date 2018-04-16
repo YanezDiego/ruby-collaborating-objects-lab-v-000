@@ -1,8 +1,10 @@
 require 'pry'
 class Artist
   attr_accessor :artist, :name, :songs
+@@all? { |e|  }
 
-  @@all = []
+    def self.all
+      @@all
 
     def initialize(name)
       @name = name
