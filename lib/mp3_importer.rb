@@ -11,6 +11,7 @@ class MP3Importer
     path.each do |file_name|
       @files = file_name.split("-")[1]
     end
+    @files
   end
 
 
