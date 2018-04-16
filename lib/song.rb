@@ -18,8 +18,8 @@ class Song
   def song.artist=(artist_name)
     @artist = artist_name
     artist_name.add_song(self) unless artist_name.song.include?(self)
-
     end
+    
   end
 
 
