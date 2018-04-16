@@ -5,12 +5,12 @@ class MP3Importer
 
   def initialize(path)
     @path = path
-    @files = []
+    @files
   end
 
   def files(path)
     path.each do |file_name|
-      @files << file_name.split("-")[1]
+      @files  file_name.split("-")[1]
     end
   end
 
