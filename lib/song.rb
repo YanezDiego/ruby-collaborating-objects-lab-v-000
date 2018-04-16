@@ -15,10 +15,10 @@ class Song
     song
   end
 
-  def self.artist=(artist_name)
-    @artist = artist_name
-    artist_name.add_song(self) unless artist_name.song.include?(self)
-  end
+  #def self.artist=(artist_name)
+  #  @artist = artist_name
+
+  #end
 
 
 
