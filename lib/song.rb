@@ -20,7 +20,6 @@ class Song
     artist_name.add_song(self) unless artist_name.song.include?(self)
     end
     
-  end
 
 
 
