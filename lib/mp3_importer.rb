@@ -10,7 +10,7 @@ class MP3Importer
 
   def files
     @files = Dir["#{path}/*.mp3"]
-    
+    @files = @files.join("")
   end
 
 
