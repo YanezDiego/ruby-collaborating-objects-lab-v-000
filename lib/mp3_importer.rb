@@ -8,6 +8,7 @@ class MP3Importer
   end
 
   def files(path)
+    binding.pry
     path.each do |file_name|
       @files = file_name.split("-")[1]
     end
