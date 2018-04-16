@@ -1,7 +1,7 @@
 require 'pry'
 class Artist
   attr_accessor :artist, :name, :songs
-@@all
+@@all = []
 
     def self.all
       @@all
