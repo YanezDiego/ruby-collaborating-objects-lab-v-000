@@ -12,6 +12,7 @@ class MP3Importer
     @files = Dir["#{path}/*.mp3"]
     @files = @files.join("")
     @files = @files.split("#{@path}/")
+    @files.shift
     @files
   end
 
