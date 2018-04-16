@@ -16,7 +16,7 @@ class Song
   end
 
   def song.artist=(artist_name)
-
+    @artist = artist_name
   end
 
 
