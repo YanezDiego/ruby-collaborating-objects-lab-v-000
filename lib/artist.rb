@@ -21,6 +21,8 @@ class Artist
 
     def save
 
+    end
+
 
 
 
