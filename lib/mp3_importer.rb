@@ -1,7 +1,7 @@
 require 'pry'
 
 class MP3Importer
-  attr_accessor :path, :files, :song, :artist, :file_name
+  attr_accessor :path
 
 
   def initialize(path)
@@ -9,11 +9,7 @@ class MP3Importer
   end
 
   def files
-    binding.pry
-    @path.each do |file_name|
-      @files = file_name.split("-")[1]
-    end
-    @files
+    
   end
 
 
