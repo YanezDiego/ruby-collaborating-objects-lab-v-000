@@ -9,7 +9,8 @@ class MP3Importer
   end
 
   def files(path)
-    path.each do |file_name
+    path.each do |file_name|
+      @files << file_name.split("-")
   end
 
 
